@@ -3,7 +3,7 @@ ver=`curl --silent http://mirror.vorboss.net/apache/tomcat/tomcat-10/ | grep v9 
 sudo yum install -y java wget git
 cd /opt
 rm -rf apache*
-sudo wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.27/bin/apache-tomcat-10.0.27.tar.gz 
+sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.68/bin/apache-tomcat-9.0.68.tar.gz
 sudo tar xvzf apache-tomcat-10.*
 sudo rm -rf apache*.gz
 sudo git clone https://github.com/adhig93/tomcat-config
